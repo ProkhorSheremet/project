@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
@@ -55,8 +59,19 @@ h1 {
   margin: 0;
   font-size: 70px;
 }
-
-eg {
-  margin: 0;
-  font-size: 50px;
+aside {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+div {
+  border: blueviolet 2px solid;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(236, 230, 207);
+}
+footer {
+  color: crimson;
+  padding: 40px;
 }
