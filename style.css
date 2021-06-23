@@ -75,3 +75,26 @@ footer {
   color: crimson;
   padding: 40px;
 }
+
+@media (max-width: 500px) {
+  header {
+    display: block;
+  }
+
+  header a {
+    display: inline-block;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  aside {
+    display: block;
+  }
+  div {
+    width: 90%;
+    margin: 10px auto;
+  }
+  img {
+    max-width: 100%;
+  }
+}
